@@ -1,0 +1,114 @@
+
+Scenario: Simple Bug Fix with Pull Request
+
+•	Goal: Go through the process of identifying, fixing, and merging a simulated bug in a simple text file using a pull request.
+
+Context: (For now, you can ignore this but just know we're fixing a "bug" in a document.) We have a list of fruits in a file, and "bananan" is misspelled. We'll fix it.
+
+Prerequisites:
+1.	GitHub Account: You need a GitHub account.
+2.	Git Installed: You need Git installed on your local machine.
+
+Step-by-Step Procedure (Follow Blindly):
+
+Phase 1: Create the Repository and "Bug"
+
+1.	Create a New Repository:
+o	Go to GitHub, log in, and click the "+" button in the upper right corner.
+o	Select "New repository."
+o	Name it: fruit-list
+o	Set it to "Public."
+o	Check the box "Add a README file."
+o	Click "Create repository."
+
+2.	Clone the Repository:
+o	On your repository's page, click the green "Code" button.
+o	Copy the HTTPS URL (it will look like https://github.com/<your-username>/fruit-list.git).
+o	Open your terminal or command prompt.
+o	Navigate to a directory where you want to store your project: cd <your-desired-directory>
+o	Clone the repository: git clone <repository-url> (replace <repository-url> with what you copied).
+o	cd fruit-list
+
+3.	Create the fruits.txt File:
+o	Navigate to the folder using terminal: cd fruit-list
+o	Create a new file using the command: touch fruits.txt
+
+4.	Add Content to fruits.txt:
+o	Open fruits.txt in a text editor (VS Code, Notepad, etc.).
+o	Paste in the following content:
+content_copyaddcompare_arrowsopen_in_full
+apple
+orange
+bananan
+grape
+mango
+
+5.	Stage the changes:
+o	Add the files to staging: git add .
+
+6.	Commit Initial Changes:
+o	In your terminal, commit the changes: git commit -m "Add initial fruit list"
+
+7.	Push to GitHub:
+o	Push the changes to the remote repository: git push
+
+Phase 2: Fix the "Bug" and Create a Pull Request
+
+1.	Create a New Branch:
+o	In your terminal, create a new branch: git checkout -b fix/spelling-banana
+
+2.	Edit fruits.txt:
+o	Open fruits.txt in your text editor.
+o	Change bananan to banana.
+o	Save the file.
+
+3.	Commit the Fix:
+o	In your terminal: git add fruits.txt
+o	git commit -m "Fix: Correct spelling of banana
+
+4.	Push the Branch:
+o	Push the branch to GitHub: git push -u origin fix/spelling-banana
+
+5.	Create a Pull Request:
+o	Go to your fruit-list repository on GitHub.
+o	You should see a yellow box that says something like "fix/spelling-banana had recent pushes less than a minute ago."
+o	Click the "Compare & pull request" button.
+o	In the "Title" field, change the title to "Fix spelling of banana".
+o	In the comment section, type "Corrected the spelling of banana in fruits.txt."
+o	Click the green "Create pull request" button.
+
+Phase 3: Merge the Pull Request
+
+1.	Review and Merge:
+o	You are now viewing the pull request you just created.
+o	Scroll down and look at the "Files changed" tab.
+o	Verify that you only changed "bananan" to "banana."
+o	If everything looks good, click the green "Merge pull request" button.
+o	Click "Confirm merge."
+
+2.	Delete the Branch (Optional):
+o	After the merge, you can delete the branch. You'll see a button that says "Delete branch." You can click it, or you can leave it.
+
+3.	Update Local Repository:
+o	Go back to your terminal.
+o	Change to the main branch: git checkout main
+o	Pull the changes: git pull
+o	Now check your local fruits.txt.
+
+Completion:
+
+You have now:
+•	Created a repository.
+•	Added a file with a "bug."
+•	Created a new branch.
+•	Fixed the "bug."
+•	Created a pull request.
+•	Merged the pull request.
+•	Pulled the changes locally.
+
+Important Notes:
+•	Replace <your-username>: Anywhere you see <your-username>, replace that with your actual GitHub username.
+•	Copy and Paste: Feel free to copy and paste the commands directly from here into your terminal.
+•	Blindly: You do not have to make any changes, this is step by step example
+
+
