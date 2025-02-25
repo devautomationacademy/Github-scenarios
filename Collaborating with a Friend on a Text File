@@ -1,0 +1,16 @@
+Collaborating with a Friend on a Text File:
+
+Goal: Jointly edit a document, such as a story or a list.
+
+GitHub Steps:
+
+Create a repository.
+Add a document.txt or document.md file.
+Invite your friend as a collaborator.
+Both of you can:
+Clone the repository to your local machines.
+Make changes to the file.
+Commit and push your changes.
+Pull changes from each other.
+
+Learning Focus: Collaboration, cloning, pushing, pulling, merge conflicts (if you both edit the same part).
