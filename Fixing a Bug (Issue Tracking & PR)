@@ -1,0 +1,16 @@
+Fixing a Bug (Issue Tracking & PR):
+
+Goal: Address a problem in your project through the issue tracking system and a fix branch.
+
+GitHub Steps:
+
+Create an issue to describe the bug.
+Create a new branch (e.g., fix/bug-description).
+Fix the bug on the branch.
+Commit and push.
+Create a pull request to merge the fix/bug-description branch into main.
+In the PR description, reference the issue number (e.g., "Fixes #1").
+Merge the PR.
+Close the issue.
+
+Learning Focus: Issue tracking, bug fixing, referencing issues in PRs.
