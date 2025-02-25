@@ -1,0 +1,13 @@
+Setting Up Basic Continuous Integration (CI):
+
+Goal: Automatically run tests every time you push changes.
+
+GitHub Steps:
+
+Write some tests for your project (you can start with very basic tests).
+Create a workflow file in .github/workflows/ (e.g., test.yml).
+Define steps in the workflow to set up your environment, install dependencies, and run tests.
+Push changes to trigger the workflow.
+Check the "Actions" tab in your repository to see the test results.
+
+Learning Focus: CI, GitHub Actions, writing workflow files.
