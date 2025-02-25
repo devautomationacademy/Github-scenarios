@@ -1,0 +1,14 @@
+Adding a New Feature (Branching Workflow):
+
+Goal: Add a new feature to your personal project without disrupting the main code.
+
+GitHub Steps:
+
+Create a new branch (e.g., feature/new-feature).
+Make your changes on that branch.
+Commit your changes on the feature branch.
+Create a pull request (PR) to merge the feature/new-feature branch into the main branch.
+Review your changes in the PR (pretend you're another developer).
+Merge the PR.
+
+Learning Focus: Branching, creating pull requests, reviewing code, merging.
