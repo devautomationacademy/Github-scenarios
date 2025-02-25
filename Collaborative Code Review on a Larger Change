@@ -1,0 +1,15 @@
+Collaborative Code Review on a Larger Change:
+
+Goal: Simulate a team code review process.
+
+GitHub Steps:
+
+Work on a feature or fix on a branch.
+Create a PR.
+Ask a friend or create another github account and use it to review the changes.
+Provide feedback using comments directly on the code in the PR.
+Address the feedback by making additional changes and commits.
+Continue the conversation and iterating until it's ready for merge.
+Merge the PR.
+
+Learning Focus: In-depth code reviews, giving and receiving feedback, iterative development.
