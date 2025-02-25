@@ -1,0 +1,13 @@
+Creating a Personal Portfolio Website:
+
+Goal: Create a simple website to showcase your skills and projects.
+
+GitHub Steps:
+
+Create a new repository named yourusername.github.io (this is special for GitHub Pages).
+Add an index.html file with basic HTML content.
+Commit and push your changes to the repository.
+Enable GitHub Pages in your repository settings.
+Visit yourusername.github.io to see your live website!
+
+Learning Focus: Repository creation, basic file management, committing, pushing, GitHub Pages.
